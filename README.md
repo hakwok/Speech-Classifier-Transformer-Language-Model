@@ -6,15 +6,47 @@ This repository explores transformer architecture using speeches from US politic
 
 ## Installation
 
-The main dependencies have been provided as import statements in the respective scripts.
+Ensure you have the following dependencies installed:
+- [Torch](https://pytorch.org/)
+- [Matplotlib](https://matplotlib.org/) (optional)
+- [nltk](https://www.nltk.org/)
 
-Please be sure to have installed Torch, and optionally, Matplotlib. nltk will be installed upon running *main.py*
+To install `nltk`, it will be automatically installed upon running `main.py`.
 
 ## Usage
 
-To run the training and testing, simply enter python main.py in the terminal. It will go through each part sequentially using the default hyperparameters.
+To run the training and testing, simply execute the following command in your terminal:
+```sh
+python src/main.py
+```
 
-To run a specific part of the PA, please add --part *x*, with x being the specific part (1, 2, 3) to run.
+This will go through each part sequentially using the default hyperparameters.
+
+To run a specific part of the project, use the --part flag followed by the part number (1, 2, or 3):
+
+```bash
+python src/main.py --part x
+```
+
+Replace x with the specific part number you wish to run.
+
+## Dataset
+
+The dataset includes speeches from:
+
+- George W. Bush
+- George H. Bush
+- Barack Obama
+
+Files
+
+- src/main.py: Main script to run the training and testing.
+- src/dataset.py: Script to handle the dataset.
+- src/tokenizer.py: Script to tokenize the speeches.
+- src/transformer.py: Implementation of the transformer model.
+- src/utilities.py: Utility functions used across the project.
+- speechesdataset/: Directory containing the speech data files.
+- speech_transformer_nlp_classifier_report.pdf: Report detailing the project findings.
 
 ## License
 
