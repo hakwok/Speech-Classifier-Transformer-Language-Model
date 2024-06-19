@@ -4,6 +4,9 @@
 
 This repository explores transformer architecture using speeches from US politicians. The project involves creating and training transformer encoder and decoder models. The first task predicts the speaker of a speech segment using a transformer encoder and classifier. The second task pretrains a word-level transformer decoder for language modeling, using masked self-attention and perplexity measures. The dataset includes speeches from George W. Bush, George H. Bush, and Barack Obama. The study covers model design, training procedures, and empirical findings, providing insights into transformer models.
 
+### Report  
+[Implementation and Performance Improvement Report](https://github.com/hakwok/Speech-Transformer-NLP-Classifier/blob/main/speech_transformer_nlp_classifier_report.pdf)
+
 ## Installation
 
 Ensure you have the following dependencies installed:
